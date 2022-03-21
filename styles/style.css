@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: grid;
   grid-template-columns: 275px 1fr;
   grid-template-rows: 150px 1fr;
@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  box-shadow: 4px 3px 10px 0px #d3d3d3;
+  box-shadow: 0px 3px 5px 0px #c2c2c2;
   width: 100%;
   z-index: 1;
   grid-area: header;
@@ -78,9 +78,7 @@ header {
   border-radius: 50px;
   padding: 8px 20px;
   font-size: 0.9rem;
-
 }
-
 
 .sidebar {
   background-color: #1992D4;
@@ -147,20 +145,35 @@ main {
   grid-gap: 20px;
 }
 
-.project {
+.main-card {
   background-color: white;
   display: flex;
+  color: #636363;
+  font-weight: 400;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 5px 0px #c2c2c2;
+}
+
+.project {
   font-size: 0.9rem;
 }
 
-.announcements {
-  background-color: lightgreen;
+.announcements-container {
+  display: grid;
+  grid-template-rows: 10% 1fr;
+  margin: 20px;
+  grid-gap: 10px;
   grid-area: announcements;
 }
+
+.announcements {
+  font-size: 0.8rem;
+}
+
+
 
 .trending {
   background-color: pink;
