@@ -1,112 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Admin Dashboard</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles/reset.css">
-  <link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
-  <header>
-    <div class="search-bar">
-      <div class="search-icon">Icon</div>
-      <input class="search-input" type="text">
-    </div>
-    <div class="user-info">
-      <div class="notification">Notification</div>
-      <div class="avatar-img-small">avatar</div>
-      <div class="username">Alec Kirazian</div>
-    </div>
-    <div class="user-greeting">
-      <div class="avatar-img-large">avatar</div>
-      <div class="user-hello">
-        <p>Hi there,</p>
-        <div>Alec Kirazian (@al-kiraz)</div>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="search-bar">
+        <div class="search-icon">Icon</div>
+        <input class="search-input" type="text">
       </div>
-    </div>
-    <div class="user-buttons">
-      <button>New</button>
-      <button>Upload</button>
-      <button>Share</button>
-    </div>
-  </header>
-  <div class="sidebar">
-      <div class="brand">Dashboard</div>
-      <div class="nav">
-        <div class="nav-item">Home</div>
-        <div class="nav-item">Profile</div>
-        <div class="nav-item">Messages</div>
-        <div class="nav-item">History</div>
-        <div class="nav-item">Tasks</div>
-        <div class="nav-item">Communities</div>
+      <div class="user-info">
+        <div class="notification">Notification</div>
+        <img src="avatar-placeholder.png" alt="avatar">
+        <div class="username">Alec Kirazian</div>
       </div>
-      <div class="settings">
-        <div class="nav-item">Settings</div>
-        <div class="nav-item">Support</div>
-        <div class="nav-item">Privacy</div>
-      </div>
-    </div>
-  <main>
-    <div class="projects-container">
-      <div class="main-title">Your Projects</div>
-      <div class="projects">
-        <div class="project main-card">
-          <div class="project-title">Super Cool Project</div>
-          <div class="project-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam vulputate dignissim suspendisse in est. Turpis massa tincidunt dui ut ornare lectus sit amet est. Felis imperdiet proin fermentum leo vel orci porta non pulvinar.</div>
-          <div class="icons"></div>
-        </div>
-        <div class="project main-card">
-          <div class="project-title">Less Cool Project</div>
-          <div class="project-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam vulputate dignissim suspendisse in est. Turpis massa tincidunt dui ut ornare lectus sit amet est. Felis imperdiet proin fermentum leo vel orci porta non pulvinar.</div>
-          <div class="icons"></div>
-        </div>
-        <div class="project main-card">
-          <div class="project-title">Impossible App</div>
-          <div class="project-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam vulputate dignissim suspendisse in est. Turpis massa tincidunt dui ut ornare lectus sit amet est. Felis imperdiet proin fermentum leo vel orci porta non pulvinar.</div>
-          <div class="icons"></div>
-        </div>
-        <div class="project main-card">
-          <div class="project-title">Easy Peasy App</div>
-          <div class="project-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam vulputate dignissim suspendisse in est. Turpis massa tincidunt dui ut ornare lectus sit amet est. Felis imperdiet proin fermentum leo vel orci porta non pulvinar.</div>
-          <div class="icons"></div>
-        </div>
-        <div class="project main-card">
-          <div class="project-title">Ad Blocker</div>
-          <div class="project-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam vulputate dignissim suspendisse in est. Turpis massa tincidunt dui ut ornare lectus sit amet est. Felis imperdiet proin fermentum leo vel orci porta non pulvinar.</div>
-          <div class="icons"></div>
-        </div>
-        <div class="project main-card">
-          <div class="project-title">Money Maker</div>
-          <div class="project-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam vulputate dignissim suspendisse in est. Turpis massa tincidunt dui ut ornare lectus sit amet est. Felis imperdiet proin fermentum leo vel orci porta non pulvinar.</div>
-          <div class="icons"></div>
+      <div class="user-greeting">
+        <img src="avatar-placeholder.png" alt="avatar">
+        <div class="user-hello">
+          <p>Hi there,</p>
+          <div>Alec Kirazian (@al-kiraz)</div>
         </div>
       </div>
-    </div>
-    <div class="announcements-container">
-      <div class="main-title">Announcements</div>
-      <div class="announcements main-card">
-        <div class="announcement">
-          <div class="announcement-title">Site Maintenance</div>
-          <p>Cras aliquam urna in justo mattis, ac mollis nulla iaculis. Maecenas accumsan accumsan quam. Nunc ut augue tellus.</p>
+      <div class="user-buttons">
+        <button>New</button>
+        <button>Upload</button>
+        <button>Share</button>
+      </div>
+    </header>
+    <div class="sidebar">
+        <div class="brand">Dashboard</div>
+        <div class="nav">
+          <div class="nav-item">Home</div>
+          <div class="nav-item">Profile</div>
+          <div class="nav-item">Messages</div>
+          <div class="nav-item">History</div>
+          <div class="nav-item">Tasks</div>
+          <div class="nav-item">Communities</div>
         </div>
-        <hr>
-        <div class="announcement">
-          <div class="announcement-title">Community Share Day</div>
-          <p>Cras aliquam urna in justo mattis, ac mollis nulla iaculis. Maecenas accumsan accumsan quam. Nunc ut augue tellus.</p>
-        </div>
-        <hr>
-        <div class="announcement">
-          <div class="announcement-title">Privacy Policy Update</div>
-          <p>Cras aliquam urna in justo mattis, ac mollis nulla iaculis. Maecenas accumsan accumsan quam. Nunc ut augue tellus.</p>
+        <div class="settings">
+          <div class="nav-item">Settings</div>
+          <div class="nav-item">Support</div>
+          <div class="nav-item">Privacy</div>
         </div>
       </div>
-    </div>
-    <div class="trending-container"></div>
-  </main>
-</body>
+    <main>
+      <div class="projects-container">
+        <div class="main-title">Your Projects</div>
+        <div class="projects">
+          <div class="project main-card">
+            <div class="project-title">Super Cool Project</div>
+            <div class="project-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            <div class="icons"></div>
+          </div>
+          <div class="project main-card">
+            <div class="project-title">Less Cool Project</div>
+            <div class="project-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam vulputate dignissim suspendisse in est.</div>
+            <div class="icons"></div>
+          </div>
+          <div class="project main-card">
+            <div class="project-title">Impossible App</div>
+            <div class="project-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            <div class="icons"></div>
+          </div>
+          <div class="project main-card">
+            <div class="project-title">Easy Peasy App</div>
+            <div class="project-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam vulputate dignissim suspendisse in est.</div>
+            <div class="icons"></div>
+          </div>
+          <div class="project main-card">
+            <div class="project-title">Ad Blocker</div>
+            <div class="project-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            <div class="icons"></div>
+          </div>
+          <div class="project main-card">
+            <div class="project-title">Money Maker</div>
+            <div class="project-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam vulputate dignissim suspendisse in est.</div>
+            <div class="icons"></div>
+          </div>
+        </div>
+      </div>
+      <div class="announcements-container">
+        <div class="main-title">Announcements</div>
+        <div class="announcements main-card">
+          <div class="announcement">
+            <div class="announcement-title">Site Maintenance</div>
+            <p>Cras aliquam urna in justo mattis, ac mollis nulla iaculis. Maecenas accumsan accumsan quam. Nunc ut augue tellus.</p>
+          </div>
+          <hr>
+          <div class="announcement">
+            <div class="announcement-title">Community Share Day</div>
+            <p>Cras aliquam urna in justo mattis, ac mollis nulla iaculis. Maecenas accumsan accumsan quam. Nunc ut augue tellus.</p>
+          </div>
+          <hr>
+          <div class="announcement">
+            <div class="announcement-title">Privacy Policy Update</div>
+            <p>Cras aliquam urna in justo mattis, ac mollis nulla iaculis. Maecenas accumsan accumsan quam. Nunc ut augue tellus.</p>
+          </div>
+        </div>
+      </div>
+      <div class="trending-container">
+        <div class="main-title">Trending</div>
+        <div class="main-card trending-items">
+          <div class="trending">
+            <img src="avatar-placeholder.png" alt="">
+            <div class="trending-text">
+              <div class="username">@tegan</div>
+              <div class="trending-text">World Peace Builder</div>
+            </div>
+          </div>
+          <div class="trending">
+            <img src="avatar-placeholder.png" alt="">
+            <div class="trending-text">
+              <div class="username">@morgan</div>
+              <div class="trending-text">Super Cool Project</div>
+            </div>
+          </div>
+          <div class="trending">
+            <img src="avatar-placeholder.png" alt="">
+            <div class="trending-text">
+              <div class="username">@kendall</div>
+              <div class="trending-text">Life Changing App</div>
+            </div>
+          </div>
+          <div class="trending">
+            <img src="avatar-placeholder.png" alt="">
+            <div class="trending-text">
+              <div class="username">@alex</div>
+              <div class="trending-text">No Traffic Maker</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

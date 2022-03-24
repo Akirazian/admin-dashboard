@@ -1,4 +1,6 @@
 body {
+  height: 100vh;
+  width: 100vw;
   font-family: 'Roboto', sans-serif;
   display: grid;
   grid-template-columns: 275px 1fr;
@@ -16,12 +18,18 @@ header {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-gap: 20px;
   padding: 0px 25px;
   padding-bottom: 20px;
   font-weight: 600;
   white-space: nowrap;
 }
+
+img {
+  width: 100%;
+  max-width: 50px;
+  height: auto;
+}
+
 
 .search-bar {
   width: 100%;
@@ -118,8 +126,10 @@ main {
   background-color: #E2E8F0;
   grid-area: main;
   display: grid;
-  grid-template-columns: 1fr 30%;
-  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+  grid-template-columns: 1fr 25%;
+  grid-template-rows: 1fr auto;
   grid-template-areas:
   "projects announcements"
   "projects trending"
@@ -135,7 +145,6 @@ main {
   grid-area: projects;
   display: grid;
   grid-template-rows: 5% 1fr;
-  margin: 20px;
   grid-gap: 10px;
 }
 
@@ -145,37 +154,54 @@ main {
   grid-gap: 20px;
 }
 
+.project-title, .announcement-title {
+  font-weight: 600;
+  color: black;
+  padding-bottom: 6px;
+}
+
+.project-title {
+  font-size: 1.1rem;
+}
+
 .main-card {
   background-color: white;
   display: flex;
   color: #636363;
   font-weight: 400;
   flex-direction: column;
-  justify-content: center;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0px 4px 5px 0px #c2c2c2;
+  line-height: 1.3;
 }
 
 .project {
   font-size: 0.9rem;
+  border-left: 9px solid #F0B429;
 }
 
 .announcements-container {
   display: grid;
   grid-template-rows: 10% 1fr;
-  margin: 20px;
   grid-gap: 10px;
   grid-area: announcements;
+}
+
+.announcement-title {
+  font-size: 0.9rem;
 }
 
 .announcements {
   font-size: 0.8rem;
 }
 
+hr {
+  color: gray;
+  width: 100%;
+  margin: 15px 0px;
+}
 
-
-.trending {
-  background-color: pink;
-  grid-area: trending;
+.trending-container {
+  grid-area: trending;  
 }
